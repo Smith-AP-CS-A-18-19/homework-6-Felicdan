@@ -46,7 +46,7 @@ public class Homework6 {
 		if((a > b && a < c) || (a > c && a < b) || ((c == b) && (max() == c))){
 			return a;
 		}
-		else if (((b > a) && (b < c)) || ((b > c) && (b < a) || ((c == b) && (max() == c)))){
+		else if (((b > a) && (b < c)) || ((b > c) && (b < a) || ((c == a) && (max() == c)))){
 			return b;
 		}
 		else {
